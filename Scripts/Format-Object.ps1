@@ -73,8 +73,6 @@ function Format-Object {
                                                     $property) # Add property information to schema builder
             $properties.Add($tempProperty) | Out-Null # List for schema builder
         }
-        else { 
-        }
     }
 
     # Loop through property in schema builder
